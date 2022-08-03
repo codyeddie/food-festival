@@ -1,13 +1,13 @@
 {
-  "name": "module-19-project",
+  "name": "module-10-project",
   "version": "1.0.0",
   "description": "",
   "main": "assets/js/script.js",
   "scripts": {
     "webpack": "webpack --watch",
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "webpack serve"
+    "start:dev": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +19,8 @@
     "webpack": "^5.37.1",
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "^3.11.3"
+    "webpack-dev-server": "^3.11.2",
+    "webpack-pwa-manifest": "^4.3.0"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
